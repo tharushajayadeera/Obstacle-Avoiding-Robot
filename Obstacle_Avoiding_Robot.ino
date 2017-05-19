@@ -20,7 +20,6 @@ void setup() {
  
 void loop() {
 
-
   long duration, distance; // start the scan
   digitalWrite(trigPin, LOW);  
   delayMicroseconds(2); // delays are required for a succesful sensor operation.
@@ -66,4 +65,3 @@ void goBack(){
     motor2.run(BACKWARD);  
     motor1.run (BACKWARD);
   }
-
